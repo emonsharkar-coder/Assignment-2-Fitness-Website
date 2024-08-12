@@ -398,10 +398,11 @@ footer {
 
 .footer_section .useful_links ul li {
     margin: 20px 0;
+    
 }
 
 .footer_section .useful_links ul li a {
-    color: var(--white-color);
+    color: rgba(255, 255, 255, 0.5);
     font-size: 17px;
 }
 
