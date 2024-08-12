@@ -30,7 +30,6 @@ body {
     background-color: var(--black-color);
 }
 
-/* Setting for the whole website */
 a {
     text-decoration: none;
 }
@@ -52,17 +51,7 @@ ul {
     text-transform: uppercase;
 }
 
-.section_title::after {
-    content: '';
-    width: 80px;
-    background: var(--secondary-color);
-    height: 5px;
-    display: block;
-    margin: 7px auto 0;
-    border-radius: 8px;
-}
-
-/* Styling for the header section */
+/* header section */
 header {
     position: fixed;
     top: 0;
@@ -235,7 +224,7 @@ label .close_btn {
     width: 100%;
 }
 
-
+/* bmi */
 .bmi-container {
     display: flex;
     justify-content: space-between;
@@ -286,7 +275,6 @@ input, select {
 }
 
 button {
-    margin-right: 400px;
     padding: 10px;
     border-radius: 20px;
     cursor: pointer;
@@ -587,10 +575,11 @@ footer {
         max-width: 70%;
     }
 
-    .bmi-chart, .bmi-calculator {
-        width: 100%; 
+    .bmi-chart, .bmi-calculator .button {
+        width: 100%;
+        margin-right: 40px; 
     }
-
+    
     .button {
         padding: 10px 20px !important;
         font-size: 15px !important;
