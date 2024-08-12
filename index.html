@@ -45,7 +45,7 @@
       <div class="section_container">
         <div class="hero_container">
           <div class="text_section">
-            <h2>Get body in <br> <h2 style="font-family: 'Miama', sans-serif; font-size: 80px;">shape </h2>& stay healthy</h2>
+            <h2>Get body in <br> <span style="font-family: 'Miama', sans-serif; font-size: 80px;">shape </span>& stay<br>healthy</h2>
             <p>
               A huge selection of health and fitness content,
                healthy recipes and transformation stories to help you get fit and stay fit!
@@ -133,7 +133,59 @@
         </div>
       </div>
     </section> 
-
+     <!-- BMI Calculator Chart -->
+     <div class="bmi-container">
+      <div class="bmi-chart">
+          <h2 style="color: white;">BMI Calculator Chart</h2>
+          <table>
+              <tr>
+                  <th style="color: white;">BMI</th>
+                  <th style="color: white;">Weight Status</th>
+              </tr>
+              <tr>
+                  <td>Below 18.5</td>
+                  <td>Underweight</td>
+              </tr>
+              <tr>
+                  <td>18.5 - 24.9</td>
+                  <td>Healthy</td>
+              </tr>
+              <tr>
+                  <td>25.0 - 29.9</td>
+                  <td>Overweight</td>
+              </tr>
+              <tr>
+                  <td>30.0 - and Above</td>
+                  <td>Obese</td>
+              </tr>
+          </table>
+      </div>
+      <div class="bmi-calculator">
+          <h2 style="color: white;">Calculate your BMI</h2>
+          <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+          <form>
+              <input type="text" placeholder="Height/cm" required>
+              <input type="text" placeholder="Weight/kg" required>
+              <input type="text" placeholder="Age" required>
+              <select required>
+                  <option value="" disabled selected>Sex</option>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                  <option value="other">Other</option>
+              </select>
+              <select required>
+                  <option value="" disabled selected>Select an activity factor</option>
+                  <option value="sedentary">Sedentary</option>
+                  <option value="light">Light activity</option>
+                  <option value="moderate">Moderate activity</option>
+                  <option value="active">Very active</option>
+                  <option value="extra-active">Extra active</option>
+              </select>
+              <button type="submit">Calculate</button>
+          </form>
+      </div>
+  </div>
+  
     <!-- Gallery Section -->
     <section class="gallery" id="gallery">
       <h2 class="section_title">Meet Our Team</h2>
@@ -194,7 +246,10 @@
             </ul>
           </div>
         </div>
-        <p style="text-align: center;text-decoration-line: overline; margin: 10px;">&copy; All rights reserved @Fitness 2024</p>
+        <div style="text-align: center;">
+          <hr style="border-color: #222;">
+          <span style="color: rgba(255, 255, 255, 0.5);">&copy; All rights reserved @Fitness 2024</span>
+        </div>
         </div>
         </div>
       </div>

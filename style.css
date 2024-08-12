@@ -235,6 +235,64 @@ label .close_btn {
     width: 100%;
 }
 
+
+.bmi-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+}
+
+.bmi-chart, .bmi-calculator {
+    width: 48%; 
+    box-sizing: border-box;
+    margin-bottom: 20px; 
+}
+
+.bmi-chart h2, .bmi-calculator h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #444;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, select {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 1em;
+    box-sizing: border-box;
+    background-color:#444 ;
+}
+
+button {
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    background-color: orangered;
+}
+
 /* Services Section */
 .services {
     background: var(--black-color);
@@ -524,6 +582,10 @@ footer {
 
     .about_container .image_section {
         max-width: 70%;
+    }
+
+    .bmi-chart, .bmi-calculator {
+        width: 100%; 
     }
 
     .button {
