@@ -222,6 +222,7 @@ label .close_btn {
 
 .about_container .image_section img {
     width: 100%;
+    border-radius: 10px;
 }
 
 /* bmi */
